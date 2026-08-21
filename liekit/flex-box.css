@@ -1,0 +1,201 @@
+flex-box {
+    display: flex;
+
+    /* Flex Directions */
+    &[direction~="row"] {
+        flex-direction: row;
+    }
+    &[direction~="col"] {
+        flex-direction: column;
+    }
+    &[direction~="row-rev"] {
+        flex-direction: row-reverse;
+    }
+    &[direction~="col-rev"] {
+        flex-direction: column-reverse;
+    }
+
+    /* Alignments */
+    /* Main Axis */
+    &[main-align="center"] {
+        justify-content: center;
+    }
+    &[main-align="flow-start"] {
+        justify-content: flex-start;
+    }
+    &[main-align="flow-end"] {
+        justify-content: flex-end;
+    }
+    &[main-align="left"] {
+        justify-content: left;
+    }
+    &[main-align="right"] {
+        justify-content: right;
+    }
+    &[main-align="start"] {
+        justify-content: start;
+    }
+    &[main-align="end"] {
+        justify-content: end;
+    }
+    &[main-align="space-around"] {
+        justify-content: space-around;
+    }
+    &[main-align="space-between"] {
+        justify-content: space-between;
+    }
+    &[main-align="space-evenly"] {
+        justify-content: space-evenly;
+    }
+    &[main-align="stretch"] {
+        & > * {
+            flex-grow: 1;
+        }
+    }
+
+    /* Cross Axis */
+    &[cross-align="stretch"] {
+        align-items: stretch;
+    }
+    &[cross-align="center"] {
+        align-items: center;
+    }
+    &[cross-align="baseline"] {
+        align-items: baseline;
+    }
+    &[cross-align="start"] {
+        align-items: start;
+    }
+    &[cross-align="end"] {
+        align-items: end;
+    }
+
+    /* Flex Wraps */
+    &[wrap="nowrap"] {
+        flex-wrap: nowrap;
+    }
+    &[wrap="wrap"] {
+        flex-wrap: wrap;
+    }
+    &[wrap="wrap-rev"] {
+        flex-wrap: wrap-reverse;
+    }
+
+    /* Wrap Alignment */
+    &[wrap-align="normal"] {
+        align-content: normal;
+    }
+    &[wrap-align="stretch"] {
+        align-content: stretch;
+    }
+    &[wrap-align="start"] {
+        align-content: start;
+    }
+    &[wrap-align="end"] {
+        align-content: end;
+    }
+    &[wrap-align="center"] {
+        align-content: center;
+    }
+    &[wrap-align="space-between"] {
+        align-content: space-between;
+    }
+    &[wrap-align="space-around"] {
+        align-content: space-around;
+    }
+    &[wrap-align="space-evenly"] {
+        align-content: space-evenly;
+    }
+}
+
+
+/* Responsive Media Queries */
+/* Small Resolution */
+@media screen and (min-width: 576px) {
+    flex-box {
+        &[direction~="sm:row"] {
+            flex-direction: row;
+        }
+        &[direction~="sm:col"] {
+            flex-direction: column;
+        }
+        &[direction~="sm:row-rev"] {
+            flex-direction: row-reverse;
+        }
+        &[direction~="sm:col-rev"] {
+            flex-direction: column-reverse;
+        }
+    }
+}
+
+/* Medium Resolution */
+@media screen and (min-width: 768px) {
+    flex-box {
+        &[direction~="md:row"] {
+            flex-direction: row;
+        }
+        &[direction~="md:col"] {
+            flex-direction: column;
+        }
+        &[direction~="md:row-rev"] {
+            flex-direction: row-reverse;
+        }
+        &[direction~="md:col-rev"] {
+            flex-direction: column-reverse;
+        }
+    }
+}
+
+/* Large Resolution */
+@media screen and (min-width: 992px) {
+    flex-box {
+        &[direction~="lg:row"] {
+            flex-direction: row;
+        }
+        &[direction~="lg:col"] {
+            flex-direction: column;
+        }
+        &[direction~="lg:row-rev"] {
+            flex-direction: row-reverse;
+        }
+        &[direction~="lg:col-rev"] {
+            flex-direction: column-reverse;
+        }
+    }
+}
+
+/* Extra Large Resolution */
+@media screen and (min-width: 1200px) {
+    flex-box {
+        &[direction~="xl:row"] {
+            flex-direction: row;
+        }
+        &[direction~="xl:col"] {
+            flex-direction: column;
+        }
+        &[direction~="xl:row-rev"] {
+            flex-direction: row-reverse;
+        }
+        &[direction~="xl:col-rev"] {
+            flex-direction: column-reverse;
+        }
+    }
+}
+
+/* Extra Extra Large Resolution */
+@media screen and (min-width: 1400px) {
+    flex-box {
+        &[direction~="xxl:row"] {
+            flex-direction: row;
+        }
+        &[direction~="xxl:col"] {
+            flex-direction: column;
+        }
+        &[direction~="xxl:row-rev"] {
+            flex-direction: row-reverse;
+        }
+        &[direction~="xxl:col-rev"] {
+            flex-direction: column-reverse;
+        }
+    }
+}
