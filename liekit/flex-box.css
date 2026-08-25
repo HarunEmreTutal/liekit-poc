@@ -5,13 +5,13 @@ flex-box {
     &[direction~="row"] {
         flex-direction: row;
     }
-    &[direction~="col"] {
+    &[direction~="column"] {
         flex-direction: column;
     }
     &[direction~="row-rev"] {
         flex-direction: row-reverse;
     }
-    &[direction~="col-rev"] {
+    &[direction~="column-rev"] {
         flex-direction: column-reverse;
     }
 
@@ -116,13 +116,13 @@ flex-box {
         &[direction~="sm:row"] {
             flex-direction: row;
         }
-        &[direction~="sm:col"] {
+        &[direction~="sm:column"] {
             flex-direction: column;
         }
         &[direction~="sm:row-rev"] {
             flex-direction: row-reverse;
         }
-        &[direction~="sm:col-rev"] {
+        &[direction~="sm:column-rev"] {
             flex-direction: column-reverse;
         }
     }
@@ -134,13 +134,13 @@ flex-box {
         &[direction~="md:row"] {
             flex-direction: row;
         }
-        &[direction~="md:col"] {
+        &[direction~="md:column"] {
             flex-direction: column;
         }
         &[direction~="md:row-rev"] {
             flex-direction: row-reverse;
         }
-        &[direction~="md:col-rev"] {
+        &[direction~="md:column-rev"] {
             flex-direction: column-reverse;
         }
     }
@@ -152,13 +152,13 @@ flex-box {
         &[direction~="lg:row"] {
             flex-direction: row;
         }
-        &[direction~="lg:col"] {
+        &[direction~="lg:column"] {
             flex-direction: column;
         }
         &[direction~="lg:row-rev"] {
             flex-direction: row-reverse;
         }
-        &[direction~="lg:col-rev"] {
+        &[direction~="lg:column-rev"] {
             flex-direction: column-reverse;
         }
     }
@@ -170,13 +170,13 @@ flex-box {
         &[direction~="xl:row"] {
             flex-direction: row;
         }
-        &[direction~="xl:col"] {
+        &[direction~="xl:column"] {
             flex-direction: column;
         }
         &[direction~="xl:row-rev"] {
             flex-direction: row-reverse;
         }
-        &[direction~="xl:col-rev"] {
+        &[direction~="xl:column-rev"] {
             flex-direction: column-reverse;
         }
     }
@@ -188,13 +188,13 @@ flex-box {
         &[direction~="xxl:row"] {
             flex-direction: row;
         }
-        &[direction~="xxl:col"] {
+        &[direction~="xxl:column"] {
             flex-direction: column;
         }
         &[direction~="xxl:row-rev"] {
             flex-direction: row-reverse;
         }
-        &[direction~="xxl:col-rev"] {
+        &[direction~="xxl:column-rev"] {
             flex-direction: column-reverse;
         }
     }
