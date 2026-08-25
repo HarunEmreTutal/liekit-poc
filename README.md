@@ -40,7 +40,7 @@ Buna çözüm olarak "modifier classes" (değiştirici sınıflar) kullanırız:
 Biz de şunu düşündük: Madem düzen yapıları projelerde bu kadar farklı ve bağımsız davranmak zorunda, o zaman iki tarafı da aynı anda şişirmek yerine, CSS'e olan bu katı bağımlılığı zayıflatıp daha `HTML-Native` bir yapı kurmak projelerin sürdürülebilirliğini ve yönetilebilirliğini katbekat artıracaktır.
 
 #### Öznitelikler
-Öncelikle şunu söylemeliyiz ki, bazı isimlendirmelerin, kullanımlarıyla daha alakalı ve anlaşılabilir olmadığını düşünerek düzenlendik/değiştirdik. 
+Öncelikle şunu söylemeliyiz ki, bazı isimlendirmelerin, kullanımlarıyla alakalı ve anlaşılabilir olmadığını düşünerek düzenlendik/değiştirdik. 
 
 Örneğin, `align-items` ve `align-content` özelliklerini ele alalım. Birisi "öğeleri hizala" (`align-items`) anlamına gelirken, bir diğeri "içeriği hizala" (`align-content`) anlamına gelmekte. Eğer bir noktayı kaçırmıyorsak, belki sizin gördüğünüz, bizim göremediğimiz bir detay vardır, bu isimler birbirine çok yakın ve yaptıkları işi tam olarak anlatmıyor gibiler.
 
