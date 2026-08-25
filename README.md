@@ -20,7 +20,7 @@ Bu nedenlerden ötürü çözümü, kullandığımız düzen yapılarını HTML'
 ## Kullanım
 LieKit, fikrimiz ve amacımız gibi kolayca anlaşılabilir ve hiç yabancılık çektirmeyecek bir kullanıma sahiptir. O kadar yabancılık çekmeyeceksiniz ki, yıllardır ailenizin bir parçası olduğunu düşüneceksiniz. 
 
-> Teknik olarak halen CSS üzerinde çalışıyorlar. Sadece amacımız, tek satır bile CSS satırı yazmadan, direkt olarak HTML üzerinden tanımlanmasını sağlamak. Kararlı sürümde de CSS üzerinden çalışmaya devam edecekler. Niyetim doğa kanunlarına müdahale etmek değil.
+> Teknik olarak halen CSS üzerinde çalışıyorlar. Sadece amacımız, tek satır bile CSS satırı yazmadan, direkt olarak HTML üzerinden tanımlanmasını sağlamak. Kararlı sürümde de CSS üzerinden çalışmaya devam edecekler. Niyetimiz doğa kanunlarına müdahale etmek değil.
 
 ### Flex Box
 
