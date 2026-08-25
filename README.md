@@ -121,7 +121,7 @@ Görüldüğü üzere her şey neredeyse birebir aynı. Sadece karmaşa daha az 
 Bootstrap gibi hazır CSS modülleri işimizi kolaylaştırsa da zincirleme yazılan sınıf adları sizce ne kadar okunur duruyor?
 
 ```html
-<div class="d-flex justify-content-between align-items-center">
+<div class="d-flex flex-column justify-content-between align-items-center">
     <!-- Child Etiketler Buraya -->
 </div>
 ```
@@ -143,6 +143,7 @@ Neticede kimse yapılan işi yatayda okumak istemez. Her işi satırlara dağıt
 ```html
 <div class="
     d-flex
+    flex-column
     justify-content-between
     align-items-center">
     <!-- Child Etiketler Buraya -->
