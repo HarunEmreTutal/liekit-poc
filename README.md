@@ -15,8 +15,7 @@ Ek olarak, HTML, sayfanın iskeletini oluşturmaktan fazlasını yapabilecek bir
 Bu nedenlerden ötürü çözümü, kullandığımız düzen yapılarını HTML'e birer etiket olarak tanımlayıp, sorumluluğu kısmen CSS'den alıp, HTML'e devrederek projelerimizin ömrünü uzatabileceğimizi düşündük.
 </p>
 
-<img src="https://img.shields.io/badge/Status-PoC-orange?style=flat" alt="Status">
-<img src="https://img.shields.io/badge/License-MIT-green?style=flat" alt="License">
+<img src="https://img.shields.io/badge/Status-PoC-orange?style=flat" alt="Status"> <img src="https://img.shields.io/badge/License-MIT-green?style=flat" alt="License">
 
 ## Kullanım
 LieKit, fikrimiz ve amacımız gibi kolayca anlaşılabilir ve hiç yabancılık çektirmeyecek bir kullanıma sahiptir. O kadar yabancılık çekmeyeceksiniz ki, yıllardır ailenizin bir parçası olduğunu düşüneceksiniz. 
