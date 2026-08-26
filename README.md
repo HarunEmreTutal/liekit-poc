@@ -157,13 +157,13 @@ Bootstrap, Tailwind gibi CSS modüllerinin bize kazandırdığı bir diğer kola
 
 Kullanımı oldukça kolay. Aynı Bootstrap'deki gibi breakpoint sabitleri vardır. `(sm, md, lg, xl, xxl)` Her şeyden önce, breakpointlerin temsil ettikleri en düşük çözünürlük değerlerini belirtmekte fayda var. Aslında direk Bootstrap'in bize alışkanlık haline getirdiği değerleri kullandık.
 
-| Breakpoint              | Resolution  |
-|:----------------------- |:----------- |
-| Small (sm)              | >= 576px    |
-| Medium (md)             | >= 768px    |
-| Large (lg)              | >= 992px    |
-| Extra Large (xl)        | >= 1200px   |
-| Extra Extra Large (xxl) | >= 1400px   |
+| Breakpoint              | Minimum Çözünürlük  |
+|:----------------------- |:------------------- |
+| Small (sm)              | >= 576px            |
+| Medium (md)             | >= 768px            |
+| Large (lg)              | >= 992px            |
+| Extra Large (xl)        | >= 1200px           |
+| Extra Extra Large (xxl) | >= 1400px           |
 
 LieKit ile tanımlanmış bir etiketin özniteliğinde, farklı breakpoint'lere, farklı değerler atayabilirsiniz.
 Sadece atama yaparken, breakpoint kısaltmasının ardından `:` (iki nokta üst üste) bırakıp, yukarıdaki özniteliklerin değerlerini kullanarak atama yapabilirsiniz.
